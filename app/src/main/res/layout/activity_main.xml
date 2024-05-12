@@ -61,7 +61,7 @@
         android:layout_centerHorizontal="true"
         android:textColor="@color/white"
         android:background="@drawable/button_shape"
-        android:textSize="14dp"
+        android:textSize="20dp"
         android:fontFamily="@font/poppinssemibold"
         android:id="@+id/btn_1"
         />
@@ -76,7 +76,7 @@
         android:layout_centerHorizontal="true"
         android:background="@drawable/button_shape"
         android:textColor="@color/white"
-        android:textSize="14sp"
+        android:textSize="20dp"
         android:fontFamily="@font/poppinssemibold"
         android:id="@+id/btn_2"
         />

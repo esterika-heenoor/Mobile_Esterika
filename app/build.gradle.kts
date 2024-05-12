@@ -1,7 +1,17 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
+
 }
+
+
+android {
+    // Konfigurasi Android lainnya di sini ...
+
+    // Tambahkan konfigurasi untuk plugin Kotlin Android Extensions
+    apply(plugin = "kotlin-android-extensions")
+}
+
 
 android {
     namespace = "com.example.mobile_esterikasimangunsong"
